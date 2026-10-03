@@ -1,5 +1,7 @@
 # DRVCAM
 
+**English** | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
+
 **A virtual camera for compatible rooted Android devices.** Choose a photo or video and present it as the camera feed of the apps you select, with live playback and framing controls.
 
 [![Latest release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.droidrooter.virtualcamera?label=latest%20release)](https://github.com/Xposed-Modules-Repo/com.droidrooter.virtualcamera/releases/latest)
@@ -58,7 +60,7 @@ Every release here includes its SHA-256 in the release notes — verify your dow
 
 ## Install
 
-1. Download and install the APK for your Android version.
+1. Download and install the APK that matches your Android version and device type (above).
 2. Open your framework manager and enable DRVCAM, then reboot if it asks you to.
 3. Open DRVCAM and grant root when prompted. DRVCAM manages the scope of the apps you select from inside its own app — you do not need to add anything by hand in the framework manager.
 4. Sign in, or choose **Try Free** (see [Free plan and paid plans](#free-plan-and-paid-plans)).
