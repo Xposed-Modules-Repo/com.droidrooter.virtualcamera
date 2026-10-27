@@ -97,20 +97,60 @@ DRVCAMには、ログイン・端末登録・更新のためにDRVCAMアカウ�
 
 ## よくある質問
 
-**rootは必要ですか？**
+<details>
+<summary><strong>rootは必要ですか？</strong></summary>
+
 はい。カメラ置き換えはシステムレベルのフックで実現しており、rootと対応するXposed系フレームワークが必要です。
+</details>
 
-**自分の端末で動きますか？**
+<details>
+<summary><strong>自分の端末で動きますか？</strong></summary>
+
 検証済みの組み合わせのみ製品ページに掲載しています。端末・ファームウェア・カメラアプリの組み合わせは非常に多く、事前に動作を保証することはできません。
+</details>
 
-**ログインせずに使えますか？**
+<details>
+<summary><strong>ログインせずに使えますか？</strong></summary>
+
 はい、**無料で試す**（画像ソース、対象アプリ1つ）で利用できます。動画やその他の機能には有料プランが必要です。
+</details>
 
-**パスワードを忘れました。どうすればよいですか？**
+<details>
+<summary><strong>マイクも置き換わりますか？</strong></summary>
+
+いいえ。DRVCAMが置き換えるのはカメラの映像だけです。実際のマイクはどのプランでもそのまま使用されます。
+</details>
+
+<details>
+<summary><strong>ライブのネットワークストリームをカメラソースとして使えますか？</strong></summary>
+
+はい、有料プランで利用できます。写真や動画を取り込むのと同じ方法でRTSP/RTMPストリームを取り込めます。
+</details>
+
+<details>
+<summary><strong>カメラ設定はいくつ保存できますか？</strong></summary>
+
+Main設定1つに加えてプリセット4つです。プリセットには有料プランが必要です。Mainは無料プランでも利用できます。
+</details>
+
+<details>
+<summary><strong>Remote Diagnosisとは何ですか？</strong></summary>
+
+サポートがあなたの端末に接続して問題の診断を手伝う機能です。デフォルトではオフになっており、ヘルプが必要なときだけ設定で自分で有効にします。
+</details>
+
+<details>
+<summary><strong>パスワードを忘れました。どうすればよいですか？</strong></summary>
+
 現時点でのアカウント復旧は手動対応です。下記の[サポート](#サポート)のリンクをご利用ください。
+</details>
 
-**ソースコードはどこにありますか？**
+<details>
+<summary><strong>ソースコードはどこにありますか？</strong></summary>
+
 ここでは公開していません。このリポジトリはモジュール一覧情報であり、署名済みのリリースバイナリのみを配布しています。
+</details>
+
 
 ## 免責事項
 
@@ -124,6 +164,7 @@ DRVCAMはクローズドソースの独自ソフトウェアです。アプリ�
 
 ## サポート
 
+- WhatsApp: [WhatsAppでチャット](https://wa.me/message/RPNSAAK4EPUSC1)
 - Telegram：[@DroidRooter](https://t.me/DroidRooter)
 - ウェブサイトのお問い合わせフォーム：[droidrooter.com/contact](https://www.droidrooter.com/contact)
 

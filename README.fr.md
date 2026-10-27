@@ -97,20 +97,60 @@ Formules, limites d'appareils et tarifs actuels : **[droidrooter.com/drvcam](htt
 
 ## Questions fréquentes
 
-**Le root est-il nécessaire ?**
+<details>
+<summary><strong>Le root est-il nécessaire ?</strong></summary>
+
 Oui. Le remplacement de caméra passe par un hook au niveau système qui nécessite le root et un framework compatible de la famille Xposed.
+</details>
 
-**Fonctionnera-t-il sur mon appareil ?**
+<details>
+<summary><strong>Fonctionnera-t-il sur mon appareil ?</strong></summary>
+
 Seules les combinaisons vérifiées sont listées sur la page produit. Appareil, micrologiciel et application caméra varient trop pour garantir la compatibilité à l'avance.
+</details>
 
-**Puis-je l'utiliser sans me connecter ?**
+<details>
+<summary><strong>Puis-je l'utiliser sans me connecter ?</strong></summary>
+
 Oui, avec **Essayer gratuitement** (sources d'image, une application cible). La vidéo et les autres fonctions nécessitent une formule payante.
+</details>
 
-**J'ai perdu mon mot de passe, que faire ?**
+<details>
+<summary><strong>Remplace-t-il aussi mon microphone ?</strong></summary>
+
+Non. DRVCAM ne remplace que ce que voit la caméra. Le microphone réel reste inchangé, quelle que soit votre formule.
+</details>
+
+<details>
+<summary><strong>Puis-je utiliser un flux réseau en direct comme source caméra ?</strong></summary>
+
+Oui, avec une formule payante. Importez un flux RTSP/RTMP de la même façon qu'une photo ou une vidéo.
+</details>
+
+<details>
+<summary><strong>Combien de configurations caméra puis-je enregistrer ?</strong></summary>
+
+Une configuration Main plus quatre presets. Les presets nécessitent une formule payante ; Main est aussi disponible avec la formule gratuite.
+</details>
+
+<details>
+<summary><strong>Que fait Remote Diagnosis ?</strong></summary>
+
+Cela permet au support de se connecter à votre appareil pour aider à diagnostiquer un problème. C'est désactivé par défaut — vous l'activez vous-même dans les Paramètres, seulement quand vous voulez de l'aide.
+</details>
+
+<details>
+<summary><strong>J'ai perdu mon mot de passe, que faire ?</strong></summary>
+
 La récupération de compte est manuelle pour l'instant ; utilisez les liens d'[Assistance](#assistance) ci-dessous.
+</details>
 
-**Où est le code source ?**
+<details>
+<summary><strong>Où est le code source ?</strong></summary>
+
 Il n'est pas publié ici. Ce dépôt est une fiche de module qui ne distribue que des binaires de version signés.
+</details>
+
 
 ## Avis de non-responsabilité
 
@@ -124,6 +164,7 @@ DRVCAM est un logiciel propriétaire à code source fermé. Aucune licence de co
 
 ## Assistance
 
+- WhatsApp: [Discuter sur WhatsApp](https://wa.me/message/RPNSAAK4EPUSC1)
 - Telegram : [@DroidRooter](https://t.me/DroidRooter)
 - Formulaire de contact du site : [droidrooter.com/contact](https://www.droidrooter.com/contact)
 

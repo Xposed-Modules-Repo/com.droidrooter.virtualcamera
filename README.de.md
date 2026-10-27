@@ -97,20 +97,60 @@ Aktuelle Tarife, Gerätelimits und Preise: **[droidrooter.com/drvcam](https://ww
 
 ## Häufig gestellte Fragen
 
-**Wird Root benötigt?**
+<details>
+<summary><strong>Wird Root benötigt?</strong></summary>
+
 Ja. Der Kameraersatz erfolgt über einen Hook auf Systemebene, der Root und ein kompatibles Framework aus der Xposed-Familie benötigt.
+</details>
 
-**Funktioniert es auf meinem Gerät?**
+<details>
+<summary><strong>Funktioniert es auf meinem Gerät?</strong></summary>
+
 Nur geprüfte Kombinationen sind auf der Produktseite aufgeführt. Gerät, Firmware und Kamera-App unterscheiden sich zu stark, um Kompatibilität im Voraus zuzusichern.
+</details>
 
-**Kann ich es ohne Anmeldung nutzen?**
+<details>
+<summary><strong>Kann ich es ohne Anmeldung nutzen?</strong></summary>
+
 Ja, mit **Kostenlos testen** (Bildquellen, eine Ziel-App). Video und die übrigen Funktionen benötigen einen bezahlten Tarif.
+</details>
 
-**Ich habe mein Passwort verloren – was nun?**
+<details>
+<summary><strong>Ersetzt es auch mein Mikrofon?</strong></summary>
+
+Nein. DRVCAM ersetzt nur das, was die Kamera sieht. Das echte Mikrofon bleibt unverändert, unabhängig vom Tarif.
+</details>
+
+<details>
+<summary><strong>Kann ich einen Live-Netzwerkstream als Kameraquelle verwenden?</strong></summary>
+
+Ja, mit einem bezahlten Tarif. Importiere einen RTSP/RTMP-Stream genauso wie ein Foto oder Video.
+</details>
+
+<details>
+<summary><strong>Wie viele Kamera-Setups kann ich speichern?</strong></summary>
+
+Ein Main-Setup plus vier Presets. Presets benötigen einen bezahlten Tarif; Main steht auch im kostenlosen Tarif zur Verfügung.
+</details>
+
+<details>
+<summary><strong>Was macht Remote Diagnosis?</strong></summary>
+
+Es ermöglicht dem Support, sich mit deinem Gerät zu verbinden, um ein Problem zu diagnostizieren. Standardmäßig ist es deaktiviert – du aktivierst es selbst in den Einstellungen, nur wenn du Hilfe möchtest.
+</details>
+
+<details>
+<summary><strong>Ich habe mein Passwort verloren – was nun?</strong></summary>
+
 Die Kontowiederherstellung erfolgt derzeit manuell; nutze die Links unter [Support](#support).
+</details>
 
-**Wo ist der Quellcode?**
+<details>
+<summary><strong>Wo ist der Quellcode?</strong></summary>
+
 Er wird hier nicht veröffentlicht. Dieses Repository ist ein Modul-Eintrag, der ausschließlich signierte Release-Binärdateien verteilt.
+</details>
+
 
 ## Haftungsausschluss
 
@@ -124,6 +164,7 @@ DRVCAM ist proprietäre Software mit geschlossenem Quellcode. Es wird keine Lize
 
 ## Support
 
+- WhatsApp: [Per WhatsApp chatten](https://wa.me/message/RPNSAAK4EPUSC1)
 - Telegram: [@DroidRooter](https://t.me/DroidRooter)
 - Kontaktformular der Website: [droidrooter.com/contact](https://www.droidrooter.com/contact)
 

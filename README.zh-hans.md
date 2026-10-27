@@ -97,20 +97,60 @@ DRVCAM 需要一个 DRVCAM 账号和网络连接来完成登录、设备注册�
 
 ## 常见问题
 
-**需要 root 吗？**
+<details>
+<summary><strong>需要 root 吗？</strong></summary>
+
 需要。摄像头替换通过系统级 Hook 实现，需要 root 以及兼容的 Xposed 系列框架。
+</details>
 
-**能在我的设备上使用吗？**
+<details>
+<summary><strong>能在我的设备上使用吗？</strong></summary>
+
 产品页面只列出了已验证的组合。设备、固件和摄像头应用的差异很大，无法提前保证兼容性。
+</details>
 
-**可以不登录使用吗？**
+<details>
+<summary><strong>可以不登录使用吗？</strong></summary>
+
 可以，使用**免费试用**（图片源，一个目标应用）。视频和其他功能需要付费套餐。
+</details>
 
-**忘记密码怎么办？**
+<details>
+<summary><strong>它也会替换我的麦克风吗？</strong></summary>
+
+不会。DRVCAM 只替换摄像头看到的画面。无论你使用哪种套餐，真实麦克风都保持不变。
+</details>
+
+<details>
+<summary><strong>可以用实时网络流作为摄像头来源吗？</strong></summary>
+
+可以，付费套餐支持。导入 RTSP/RTMP 流的方式和导入照片或视频一样。
+</details>
+
+<details>
+<summary><strong>我可以保存多少个摄像头设置？</strong></summary>
+
+一个 Main 设置加四个预设。预设需要付费套餐；Main 在免费套餐中也可使用。
+</details>
+
+<details>
+<summary><strong>Remote Diagnosis（远程诊断）是做什么的？</strong></summary>
+
+它让支持人员连接到你的设备以帮助诊断问题。默认关闭——只有当你需要帮助时，才自己在设置中开启。
+</details>
+
+<details>
+<summary><strong>忘记密码怎么办？</strong></summary>
+
 目前账号找回需要人工处理，请使用下方[支持](#支持)中的联系方式。
+</details>
 
-**源代码在哪里？**
+<details>
+<summary><strong>源代码在哪里？</strong></summary>
+
 本仓库不发布源代码。本仓库是模块列表条目，仅分发经过签名的发行版二进制文件。
+</details>
+
 
 ## 免责声明
 
@@ -124,6 +164,7 @@ DRVCAM 为闭源专有软件。本软件不授予任何复制、修改、逆向�
 
 ## 支持
 
+- WhatsApp: [通过 WhatsApp 联系](https://wa.me/message/RPNSAAK4EPUSC1)
 - Telegram：[@DroidRooter](https://t.me/DroidRooter)
 - 网站联系表单：[droidrooter.com/contact](https://www.droidrooter.com/contact)
 
