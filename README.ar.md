@@ -1,19 +1,26 @@
-[English](README.md) | [Español](README.es.md) | **العربية** | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
+<div dir="rtl" align="center">
 
-<div dir="rtl" align="right">
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
 
 # DRVCAM
 
 **كاميرا افتراضية لأجهزة Android المتوافقة ذات صلاحية root.** اختر صورة أو مقطع فيديو وقدّمه كصورة كاميرا للتطبيقات التي تختارها، مع تشغيل مباشر وأدوات تحكم بالتأطير.
+
+[English](README.md) | [Español](README.es.md) | **العربية** | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![أحدث إصدار](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.droidrooter.virtualcamera?label=%D8%A3%D8%AD%D8%AF%D8%AB%20%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1)](https://github.com/Xposed-Modules-Repo/com.droidrooter.virtualcamera/releases/latest)
 [![المنصة](https://img.shields.io/badge/%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9-Android-3DDC84)](#المتطلبات)
 [![صلاحية root مطلوبة](https://img.shields.io/badge/root-%D9%85%D8%B7%D9%84%D9%88%D8%A8-critical)](#المتطلبات)
 [![الترخيص](https://img.shields.io/badge/%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5-%D9%85%D9%85%D9%84%D9%88%D9%83-lightgrey)](#الترخيص)
 
-> **إصدار ألفا.** DRVCAM قيد التطوير النشط، وقد يختلف السلوك باختلاف الجهاز.
+**[⬇ تنزيل](#التنزيل)** &nbsp;·&nbsp; **[📦 تثبيت](#التثبيت)** &nbsp;·&nbsp; **[💬 الدعم](#الدعم)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-هذا المستودع هو **قائمة الوحدة** الخاصة بـ DRVCAM. لا يحتوي على كود مصدري. صفحة المنتج والأسعار والتوثيق الكامل: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **إصدار بيتا.** DRVCAM قيد التطوير النشط، وقد يختلف السلوك باختلاف الجهاز. هذا المستودع هو **قائمة الوحدة** الخاصة بـ DRVCAM. لا يحتوي على كود مصدري. صفحة المنتج والأسعار والتوثيق الكامل: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+
+<div dir="rtl" align="right">
 
 ## المحتويات
 
@@ -32,18 +39,21 @@
 
 ## لقطات شاشة
 
-| الشاشة الرئيسية | وحدة التحكم العائمة |
-|---|---|
-| ![الشاشة الرئيسية لتطبيق DRVCAM: معاينة المصدر المباشر، اختيار التطبيق الهدف، مصدر الوسائط وأدوات تحكم سريعة](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-home.webp) | ![وحدة التحكم العائمة فوق تطبيق كاميرا](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-controller.webp) |
-
-| محرر الوسائط | الإعدادات الجاهزة |
-|---|---|
-| ![محرر الوسائط: التحكم بالتشغيل والتكرار والتكبير والدوران](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-editor.webp) | ![تبويب الإعدادات الجاهزة في المكتبة](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>الرئيسية</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>المتحكم العائم</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>محرر الوسائط</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>الإعدادات الجاهزة</sub></td>
+</tr>
+</table>
+</div>
 
 ## ما الذي يقدّمه
 
 - يستخدم صورة أو مقطع فيديو تستورده مصدراً لكاميرا تطبيق تختاره، حيثما يسمح الجهاز وواجهة الكاميرا والتطبيق بذلك.
-- يتيح لك اختيار التطبيقات الهدف وضبط التشغيل والدوران والانعكاس والتكبير والتأطير. يمكن حفظ مصدر Main وإعدادين جاهزين والتبديل بينها.
+- يتيح لك اختيار التطبيقات الهدف وضبط التشغيل والدوران والانعكاس والتكبير والتأطير. يمكن حفظ مصدر Main وأربعة إعدادات جاهزة والتبديل بينها.
 - يتيح لك تبديل هدف مُعدّ بين الصورة الافتراضية والكاميرا الفعلية الحقيقية. تحتاج بعض التطبيقات إلى إعادة فتح الكاميرا قبل ظهور التغيير؛ يخبرك DRVCAM عندما يكون الأمر كذلك.
 - يوفر وحدة تحكم عائمة اختيارية تبقى فوق التطبيق الذي تستخدمه (تتطلب إذن النوافذ العائمة).
 - لا يغيّر الميكروفون الحقيقي — لا يستبدل DRVCAM الصوت ولا يعالجه.
@@ -56,7 +66,7 @@
 
 ## التنزيل
 
-تضم هذه القائمة **حزمة الهاتف لنظام Android 12 والإصدارات الأحدث** (arm64). الحزم الأخرى — من Android 9 إلى 11، وصور المحاكي — متوفرة على **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**، مع أداة اختيار توصي بالحزمة المناسبة لجهازك.
+تضم هذه القائمة **حزمة الهاتف لنظام Android 9 والإصدارات الأحدث** (arm64). حزمة المحاكي متوفرة على **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**، مع أداة اختيار توصي بالحزمة المناسبة لجهازك.
 
 يتضمن كل إصدار هنا قيمة SHA-256 الخاصة به في ملاحظات الإصدار — تحقق من تنزيلك قبل التثبيت.
 
@@ -106,7 +116,7 @@
 
 ## إخلاء المسؤولية
 
-DRVCAM برنامج في مرحلة ألفا، يُقدَّم "كما هو" دون أي ضمان من أي نوع. إن تجذير (root) الجهاز وتثبيت إطار بلا نظام هما إجراءان تقوم بهما على مسؤوليتك الخاصة، وقد يؤثران في ضمان جهازك أو استقراره.
+DRVCAM برنامج في مرحلة بيتا، يُقدَّم "كما هو" دون أي ضمان من أي نوع. إن تجذير (root) الجهاز وتثبيت إطار بلا نظام هما إجراءان تقوم بهما على مسؤوليتك الخاصة، وقد يؤثران في ضمان جهازك أو استقراره.
 
 أنت وحدك المسؤول عن الوسائط التي تستخدمها، وعن التطبيقات التي تستخدم DRVCAM معها، وعن الامتثال للقوانين والشروط التي تخصك. لا يتحمل المطوّر مسؤولية أي استخدام غير قانوني أو غير مصرَّح به أو غير لائق لهذا البرنامج.
 

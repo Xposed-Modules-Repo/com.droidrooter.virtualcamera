@@ -1,17 +1,24 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | **简体中文**
-
 **适用于已 root 的兼容 Android 设备的虚拟摄像头。** 选择一张照片或一段视频，把它作为你所选应用的摄像头画面，支持实时播放和取景控制。
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | **简体中文**
 
 [![最新版本](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.droidrooter.virtualcamera?label=最新版本)](https://github.com/Xposed-Modules-Repo/com.droidrooter.virtualcamera/releases/latest)
 [![平台](https://img.shields.io/badge/平台-Android-3DDC84)](#运行要求)
 [![需要-root](https://img.shields.io/badge/需要-root-critical)](#运行要求)
 [![许可](https://img.shields.io/badge/许可-proprietary-lightgrey)](#许可)
 
-> **Alpha 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。
+**[⬇ 下载](#下载)** &nbsp;·&nbsp; **[📦 安装](#安装)** &nbsp;·&nbsp; **[💬 支持](#支持)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-本仓库是 DRVCAM 的**模块列表条目**，不包含源代码。产品页面、价格和完整文档：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
+</div>
+
+> [!IMPORTANT]
+> **Beta 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。 本仓库是 DRVCAM 的**模块列表条目**，不包含源代码。产品页面、价格和完整文档：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
 
 ## 目录
 
@@ -30,18 +37,21 @@
 
 ## 截图
 
-| 主页 | 悬浮控制器 |
-|---|---|
-| ![DRVCAM 主界面：实时画面预览、目标应用选择、媒体来源和快捷控制](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-home.webp) | ![悬浮控制器叠加在摄像头应用上](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-controller.webp) |
-
-| 媒体编辑器 | 预设 |
-|---|---|
-| ![媒体编辑器：播放、循环、缩放和旋转控制](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-editor.webp) | ![媒体库的预设标签页](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>主页</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>悬浮控制器</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>媒体编辑器</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>预设</sub></td>
+</tr>
+</table>
+</div>
 
 ## 功能说明
 
 - 在设备、摄像头 API 和应用支持的范围内，将你导入的照片或视频用作所选应用的摄像头来源。
-- 让你选择目标应用，并调整播放、旋转、镜像、缩放和取景。可以保存并切换一个 Main 来源和两个预设。
+- 让你选择目标应用，并调整播放、旋转、镜像、缩放和取景。可以保存并切换一个 Main 来源和四个预设。
 - 让你在虚拟画面和真实物理摄像头之间切换已配置的目标。部分应用需要重新打开摄像头才能显示变化，DRVCAM 会在需要时提示你。
 - 提供可选的悬浮控制器，始终显示在你正在使用的应用上方（需要悬浮窗权限）。
 - 不改变真实麦克风 — DRVCAM 不会替换或处理音频。
@@ -54,7 +64,7 @@
 
 ## 下载
 
-此列表提供 **Android 12 及以上版本的手机构建版本**（arm64）。其他构建版本——Android 9 至 11 及模拟器镜像——位于 **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**，并配有选择工具为你推荐合适的版本。
+此列表提供 **Android 9 及以上版本的手机构建版本**（arm64）。模拟器镜像位于 **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**，并配有选择工具为你推荐合适的版本。
 
 此处每个版本都会在发行说明中提供 SHA-256 — 安装前请先校验下载文件。
 
@@ -104,7 +114,7 @@ DRVCAM 需要一个 DRVCAM 账号和网络连接来完成登录、设备注册�
 
 ## 免责声明
 
-DRVCAM 是 Alpha 版软件，按“现状”提供，不附带任何形式的保证。对设备进行 root 以及安装无系统签名的框架，均由你自行承担风险，可能影响设备保修或稳定性。
+DRVCAM 是 Beta 版软件，按“现状”提供，不附带任何形式的保证。对设备进行 root 以及安装无系统签名的框架，均由你自行承担风险，可能影响设备保修或稳定性。
 
 你需要自行对所使用的媒体内容、搭配 DRVCAM 使用的应用程序，以及遵守适用于你的法律和条款负责。开发者不对本软件的任何非法、未经授权或其他不当使用承担责任。
 

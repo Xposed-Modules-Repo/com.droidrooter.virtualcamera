@@ -1,17 +1,24 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Italiano** | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **Una fotocamera virtuale per dispositivi Android compatibili con root.** Scegli una foto o un video e presentalo come immagine della fotocamera delle app che selezioni, con riproduzione dal vivo e controlli di inquadratura.
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Italiano** | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Ultima versione](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.droidrooter.virtualcamera?label=ultima%20versione)](https://github.com/Xposed-Modules-Repo/com.droidrooter.virtualcamera/releases/latest)
 [![Piattaforma](https://img.shields.io/badge/piattaforma-Android-3DDC84)](#requisiti)
 [![Root necessario](https://img.shields.io/badge/root-necessario-critical)](#requisiti)
 [![Licenza](https://img.shields.io/badge/licenza-proprietaria-lightgrey)](#licenza)
 
-> **Versione alpha.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo.
+**[⬇ Scaricare](#scaricare)** &nbsp;·&nbsp; **[📦 Installare](#installare)** &nbsp;·&nbsp; **[💬 Assistenza](#assistenza)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-Questo repository è la **scheda del modulo** per DRVCAM. Non contiene codice sorgente. Pagina del prodotto, prezzi e documentazione completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Versione beta.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo. Questo repository è la **scheda del modulo** per DRVCAM. Non contiene codice sorgente. Pagina del prodotto, prezzi e documentazione completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Indice
 
@@ -30,18 +37,21 @@ Questo repository è la **scheda del modulo** per DRVCAM. Non contiene codice so
 
 ## Screenshot
 
-| Home | Controller mobile |
-|---|---|
-| ![Schermata Home di DRVCAM: anteprima della sorgente dal vivo, selezione dell'app di destinazione, sorgente multimediale e controlli rapidi](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-home.webp) | ![Controller mobile sovrapposto a un'app fotocamera](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-controller.webp) |
-
-| Editor multimediale | Preset |
-|---|---|
-| ![Editor multimediale: controlli di riproduzione, loop, zoom e rotazione](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-editor.webp) | ![Scheda preset della libreria](https://raw.githubusercontent.com/saadnahid7/drvcam-releases/main/screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Home</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Controller flottante</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Editor multimediale</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Preset</sub></td>
+</tr>
+</table>
+</div>
 
 ## Cosa fa
 
 - Usa una foto o un video che importi come sorgente della fotocamera di un'app che scegli, dove dispositivo, API fotocamera e app lo consentono.
-- Ti permette di scegliere le app di destinazione e regolare riproduzione, rotazione, effetto specchio, zoom e inquadratura. Una sorgente Main e due preset possono essere salvati e scambiati.
+- Ti permette di scegliere le app di destinazione e regolare riproduzione, rotazione, effetto specchio, zoom e inquadratura. Una sorgente Main e quattro preset possono essere salvati e scambiati.
 - Ti permette di far passare una destinazione configurata tra l'immagine virtuale e la fotocamera fisica reale. Alcune app devono riaprire la fotocamera prima che il cambio sia visibile; DRVCAM te lo segnala quando accade.
 - Offre un controller mobile opzionale che resta sopra l'app in uso (richiede il permesso di sovrapposizione).
 - Lascia invariato il microfono reale — DRVCAM non sostituisce né elabora l'audio.
@@ -54,7 +64,7 @@ Questo repository è la **scheda del modulo** per DRVCAM. Non contiene codice so
 
 ## Scaricare
 
-Questa scheda include la **build per telefono per Android 12 e versioni successive** (arm64). Le altre build — Android da 9 a 11 e le immagini per emulatore — si trovano su **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**, con un selettore che consiglia quella adatta al tuo dispositivo.
+Questa scheda include la **build per telefono per Android 9 e versioni successive** (arm64). L'immagine per emulatore si trova su **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**, con un selettore che consiglia quella adatta al tuo dispositivo.
 
 Ogni versione qui riporta il proprio SHA-256 nelle note di rilascio — verifica il download prima di installare.
 
@@ -104,7 +114,7 @@ Non è pubblicato qui. Questo repository è una scheda di modulo che distribuisc
 
 ## Esclusione di responsabilità
 
-DRVCAM è software alpha, fornito "così com'è" senza garanzie di alcun tipo. Eseguire il root di un dispositivo e installare un framework senza sistema sono azioni che compi a tuo rischio e possono incidere sulla garanzia o sulla stabilità del dispositivo.
+DRVCAM è software beta, fornito "così com'è" senza garanzie di alcun tipo. Eseguire il root di un dispositivo e installare un framework senza sistema sono azioni che compi a tuo rischio e possono incidere sulla garanzia o sulla stabilità del dispositivo.
 
 Sei l'unico responsabile dei contenuti che utilizzi, delle applicazioni con cui usi DRVCAM e del rispetto delle leggi e dei termini a te applicabili. Lo sviluppatore non è responsabile di alcun utilizzo illegale, non autorizzato o altrimenti improprio di questo software.
 
